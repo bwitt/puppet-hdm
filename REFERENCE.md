@@ -100,7 +100,7 @@ Version is the image tag name when using docker and
 the git tag when using rvm
 Please find the releases on HDM website: https://github.com/betadots/hdm/releases
 
-Default value: `'4.1.1'`
+Default value: `'v4.1.1'`
 
 ##### <a name="-hdm--container_registry_url"></a>`container_registry_url`
 

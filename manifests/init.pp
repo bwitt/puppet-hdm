@@ -155,7 +155,7 @@
 #
 class hdm (
   # installation parameter
-  String[1]                     $version               = '4.1.1',
+  String[1]                     $version               = 'v4.1.1',
   Enum['docker', 'rvm']         $method                = 'docker',
   String[1]                     $container_registry_url = 'ghcr.io/betadots/hdm',
   Boolean                       $manage_docker         = true,

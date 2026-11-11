@@ -99,14 +99,14 @@ include hdm
 
 You can find the released versions on [HDM releases page](https://github.com/betadots/hdm/releases)
 ```yaml
-hdm::version: '3.1.0
+hdm::version: 'v3.1.0'
 ```
 
 Another option is to use class resource type declaration:
 
 ```puppet
 class { 'hdm':
-  version => '3.1.0',
+  version => 'v3.1.0',
 }
 ```
 
